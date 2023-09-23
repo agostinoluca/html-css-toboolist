@@ -6,7 +6,6 @@
 }
 
 body{
-    width: 800px;
     background-color: rgb(246, 248, 249);
     margin: auto;
 }
@@ -20,6 +19,7 @@ body{
     --button-text-grey: rgb(205, 211, 215);
 }
 
+/* header */
 #header_logo{
     height: 50px;
     background-color: white;
@@ -37,6 +37,7 @@ body{
     color: var(--blue-boolean);
 }
 
+/* button's bar */
 #edit_bar{
     height: 50px;
     width: 550px;
@@ -63,6 +64,7 @@ body{
     border: 1px solid var(--button-text-grey);
 }
 
+/* main body */
 #main_section{
     width: 550px;
     height: 400px;
@@ -76,6 +78,7 @@ body{
     color: var(--text-page-color);
 }
 
+/* style text main */
 .section_title{
     font-size: 18px;
     font-weight: 600;
@@ -84,13 +87,36 @@ body{
 
 .generic_text{
     display: inline-block;
-    margin: 10px 0 0 28px;
+    margin: 10px 0 0 10px;
 }
 
 #new_task_section, #today_section, #upcoming_section{
     margin-bottom: 20px;
 }
 
+/* check mark green and red */
+.check_mark{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    font-size: 10px;
+    margin-left: 4px;
+}
+
+.green_mark{
+    border: 1px solid var(--check-green);
+    color: var(--check-green);
+}
+
+.red_mark{
+    border: 1px solid var(--cross-red);
+    color: var(--cross-red);
+}
+
+
+/* colored right note */
 .right_colored_note{
     font-size: 8px;
     padding: 5px 10px;
