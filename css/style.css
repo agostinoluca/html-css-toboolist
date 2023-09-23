@@ -105,3 +105,19 @@ body{
 .q1_goals{
     background-color: rgb(171, 93, 230);
 }
+
+.recruiting_note{
+    background-color: rgb(44, 198, 171);
+}
+
+.mobile_note{
+    background-color: rgb(255, 155, 0);
+}
+
+.website_note{
+    background-color: rgb(236, 74, 157);
+}
+
+.sales_note{
+    background-color: rgb(163, 209, 22);
+}
