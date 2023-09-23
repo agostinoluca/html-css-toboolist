@@ -6,7 +6,8 @@
 }
 
 body{
-    width: 1000px;
+    width: 800px;
+    background-color: rgb(246, 248, 249);
 }
 
 :root{
@@ -15,6 +16,7 @@ body{
     --check-green: rgb(45, 198, 171);
     --cross-red: rgb(255, 16, 16);
     --right-note-azzurro: rgb(9, 169, 237);
+    --button-text-grey: rgb(205, 211, 215);
 }
 
 #header_logo{
@@ -32,4 +34,30 @@ body{
     font-size: 30px;
     vertical-align: 12px;
     color: var(--blue-boolean);
+}
+
+#edit_bar{
+    height: 50px;
+    width: 550px;
+    margin: 30px auto auto auto;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    background-color: white;
+    padding: 15px 0 0 30px;
+}
+
+.nav_button{
+    border-radius: 5px;
+    padding: 5px 8px 5px 8px;
+    font-size: 9px;
+    font-weight: bold;
+    color: var(--button-text-grey);
+}
+
+#add_task{
+    background-color: rgb(20, 170, 245);
+}
+
+#add_section{
+    border: 1px solid var(--button-text-grey);
 }
