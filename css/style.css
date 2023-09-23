@@ -2,4 +2,34 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    width: 1000px;
+}
+
+:root{
+    --blue-boolean: rgb(2, 23, 50);
+    --text-page-color: rgb(67, 72, 81);
+    --check-green: rgb(45, 198, 171);
+    --cross-red: rgb(255, 16, 16);
+    --right-note-azzurro: rgb(9, 169, 237);
+}
+
+#header_logo{
+    height: 50px;
+    background-color: white;
+}
+
+.logo_boolean{
+    height: 100%;
+    padding: 5px 0 0 10px;
+}
+
+#logo_title{
+    font-weight: bolder;
+    font-size: 30px;
+    vertical-align: 12px;
+    color: var(--blue-boolean);
 }
